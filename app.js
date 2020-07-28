@@ -1,3 +1,13 @@
+// 获取 AV 命名空间的方式根据不同的安装方式而异，这里假设是通过手动导入文件的方式安装的 SDK
+const AV = require('./utils/av-live-query-core-min');
+const adapter = require('./utils/leancloud-adapters-weapp');
+AV.setAdapters(adapter);
+AV.init({
+  appId: 'ka4DfFfMeVGMtHo6OaERKJVK-gzGzoHsz',
+  appKey: 'ODbU2nul0Gm09UKCyJ8cF5r7',
+  // 请将 xxx.example.com 替换为你的应用绑定的自定义 API 域名
+  serverURLs: "https://ka4dfffm.lc-cn-n1-shared.com",
+});
 //app.js
 App({
   onLaunch: function () {

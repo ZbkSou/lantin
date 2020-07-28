@@ -1,0 +1,9 @@
+<!--pages/poems/poems.wxml-->
+
+<view class="poems-list">
+<block wx:for="{{poems}}" wx:for-item="poem" wx:key="objectId">
+  <view class="flex-wrap">
+      {{poem.content}}
+  </view>
+</block>
+</view>

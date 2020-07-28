@@ -1,0 +1,4 @@
+/* pages/poems/poems.wxss */
+.poems-list {
+  padding: 4px 6px 48px;
+}
