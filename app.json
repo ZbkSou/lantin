@@ -1,9 +1,38 @@
 {
   "pages": [
+    "pages/excerpts/excerpts",
+    "pages/library/library",
+    "pages/mine/mine",
     "pages/index/index",
     "pages/logs/logs",
     "pages/poems/poems"
+   
   ],
+
+  "tabBar": {
+    "selectedColor": "#DE2245",
+    "color": "#888",
+    "list": [{
+      "pagePath": "pages/excerpts/excerpts",
+      "text": "摘录",
+      "iconPath": "images/tabbar/tab_home_unSel.png",
+       "selectedIconPath": "images/tabbar/tab_home_sel.png"
+    },
+    {
+      "pagePath": "pages/library/library",
+      "text": "文库",
+      "iconPath": "images/tabbar/tab_message_unSel.png",
+      "selectedIconPath": "images/tabbar/tab_message_sel.png"
+    },
+    {
+      "pagePath": "pages/mine/mine",
+      "text": "我的",
+      "iconPath": "images/tabbar/tab_mine_unSel.png",
+      "selectedIconPath": "images/tabbar/tab_mine_sel.png"
+    }
+    ]
+  },
+
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
