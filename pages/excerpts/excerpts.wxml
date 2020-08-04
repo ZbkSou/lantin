@@ -1,0 +1,8 @@
+<view class="root_view">
+
+   <view class="view_conent">
+      <text class="tv_share_content">人生得意须尽欢\n千金散尽还复来\n人生得意须尽欢来</text>
+      <text class="tv_title"> 将进酒\n李白</text>
+   </view>
+
+</view>
